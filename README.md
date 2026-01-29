@@ -166,6 +166,7 @@ artifacts/histories/
 
 download all the artifacts files including the models weights and histories 
 you can Download pretrained .keras weights from the Releases section or the link attached and put them in artifacts/models/.
+
 the releases link: https://github.com/qatrlnadaalmarzq/CMP5103-project/releases/tag/v1.0-models
 
 2. Set at the top of the notebook:
@@ -259,6 +260,7 @@ If any artifact file is missing, the notebook will print a clear message and ski
 * Evaluation does not require retraining
 * Missing artifacts are handled gracefully
 * Results are deterministic given the saved artifacts
+
 
 
 
