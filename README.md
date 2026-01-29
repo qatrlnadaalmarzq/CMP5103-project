@@ -136,7 +136,7 @@ USE_PRETRAINED = True/False
 
 
 
-- Pretrained / Evaluation Mode (USE\_PRETRAINED = True)
+###### Pretrained / Evaluation Mode (USE\_PRETRAINED = True)
 
 * Loads pretrained models and saved training histories
 * Skips all training sections
@@ -144,7 +144,7 @@ USE_PRETRAINED = True/False
 
 
 
-- Full Training Mode (USE\_PRETRAINED = False)
+###### Full Training Mode (USE\_PRETRAINED = False)
 
 * Trains all models from scratch
 * Saves model weights and training histories to artifacts/
@@ -257,6 +257,7 @@ If any artifact file is missing, the notebook will print a clear message and ski
 * Evaluation does not require retraining
 * Missing artifacts are handled gracefully
 * Results are deterministic given the saved artifacts
+
 
 
 
